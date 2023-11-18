@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Table</title>
+    <link rel="stylesheet" href="customer.css">
+</head>
+<body>
+    <div class="main"> 
+        <button id = "customer">Customer List</button>
+<table id = "userTable">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<br>
+
+ <h1>Customer Details</h1>
+ <div>
+
+    <form id = "form" action="" method="post">
+        <input class="details" id = "firstName" type = "text" placeholder="firstname">
+        <input  class="details" id = "lastName" type = "text" placeholder="lastname">
+        <br>
+        <input  class="details" id = "street" type = "text" placeholder="street">
+        <input  class="details" id = "address" type = "text" placeholder="address">
+        <br>
+        <input  class="details" id = "city" type = "text" placeholder="city">
+        <input  class="details" id = "state" type = "text" placeholder="state">
+        <br>
+        <input  class="details"  id = "email" type = "text" placeholder="email">
+        <input  class="details" id = "phone" type = "text" placeholder="phone">
+        <br>
+    <button id = "details-submit" type="submit">Submit</button>
+    </form>
+ </div>
+    </div>
+</body>
+<script src="customer.js"></script>
+</html>

@@ -1,0 +1,68 @@
+ 
+        .main{
+            text-align: center;
+        }
+        #customer{
+            padding: 8px 12px;
+            border-radius: 8px;
+            background-color: #bfafdd;
+            cursor: pointer;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .action-buttons {
+            display: flex;
+        }
+
+        .action-buttons button {
+            margin-right: 5px;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .update-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .delete-button {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .details{
+            margin-top: 12px;
+            margin-left: 16px;
+            padding: 4px;
+            border-radius: 6px;
+            font-size: medium;
+        }
+
+        #details-submit{
+            margin-left: 240px;
+            margin-top: 24px;
+            border-radius: 6px;
+            font-size: medium;
+            padding: 8px;
+            color: white;
+            background-color: #3399ff;
+        }

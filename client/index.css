@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login{
+    margin-top: 200px;
+}
+
+.login > h1{
+ align-items: center;
+ margin-left: 64px;
+}
+
+form > input{
+    border-radius: 6px ;
+    padding: 4px;
+    margin: 12px;
+    border-color: darkgrey;
+    font-size: medium;
+}
+
+form > button{
+    background-color: white;
+    border-radius: 6px;
+    padding: 8px;
+    color: #ffff;
+    border-style: none;
+    margin-left: 64px;
+    margin-top: 8px;
+    background-color: #3399ff;
+    cursor: pointer;
+    color: #ffff;
+}
+
+
+
