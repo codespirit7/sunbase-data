@@ -35,14 +35,14 @@ public class ApiController {
         }
     }
     @GetMapping("/getCustomerList")
-    public ResponseEntity<Object> getData() {
+    public ResponseEntity<Object> getData(@RequestHeader("Authorization") String reqHeader) {
         String apiUrl = "https://qa2.sunbasedata.com/sunbase/portal/api/assignment.jsp?cmd=get_customer_list";
-        String token = "Bearer dGVzdEBzdW5iYXNlZGF0YS5jb206VGVzdEAxMjM=";
+       
 
         try {
             RestTemplate restTemplate = new RestTemplate();
             HttpHeaders header = new HttpHeaders();
-            header.set("Authorization", token);
+            header.set("Authorization", reqHeader);
             header.setAccessControlAllowOrigin("http://localhost:5500");
 
             HttpEntity<?> entity = new HttpEntity<>(header);
